@@ -141,7 +141,7 @@ static void vLEDTask1(void *pvParameters) {
 	while (1) {
 		Board_LED_Set(2, LedState);
 		LedState = (bool) !LedState;
-  //printf("hello world \n");
+  printf("hello world \n");
 		// About a 3Hz on/off toggle rate 
 		vTaskDelay(configTICK_RATE_HZ /6);
 	}
