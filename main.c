@@ -170,7 +170,6 @@ int led_dp = 0, led_step = 1, out_dp = 0;
 	Chip_SCTPWM_SetRate(SCT_PWM, SCT_PWM_RATE);
 
 	/* Setup Board specific output pin */
-	//app_setup_pin();
 
 	/* Use SCT0_OUT1 pin */
 	Chip_SCTPWM_SetOutPin(SCT_PWM, SCT_PWM_OUT, SCT_PWM_PIN_OUT);
